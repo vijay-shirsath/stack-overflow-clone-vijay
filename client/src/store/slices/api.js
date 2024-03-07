@@ -1,5 +1,4 @@
- 
-export const backendUrl = "https://stackoverflow-backend-orrv.onrender.com";
+export const backendUrl = "https://stackoverflow-backend-1.onrender.com";
 
 
 export const url = `${backendUrl}/user`;
@@ -20,5 +19,4 @@ export const deleteAnswerURL = "http://localhost:5000/answer/delete";
 export const voteQuestionURL = "http://localhost:5000/questions/vote";
 export const getAllUsersAuth = "http://localhost:5000/user/getAllUsers";
 export const editUserProfile = "http://localhost:5000/user/update";
-
 */

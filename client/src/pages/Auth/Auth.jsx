@@ -88,7 +88,7 @@ const Auth = () => {
           <label htmlFor="password">
             <div style={{ display: 'flex', justifyContent: "space-between" }}>
               <h4>Password</h4>
-              {!isSignup && <p style={{ color: "#007ac6", fontSize: "16px" }}>Forgot Password</p>}
+              {!isSignup && <p style={{ color: "#007ac6", fontSize: "16px",cursor: 'pointer' }} onClick={() => navigate("/forgot-password")}>Forgot Password</p>}
             </div>
             <input type="password" name='password' id='password' onChange={(event) => setUser({ ...user, password: event.target.value })} />
             {isSignup && <p>Passwords must have at least 8 characters <br /> and contain at least two of the following: <br /> uppercase letters, lowercase letters, numbers, and symbols.</p>}
