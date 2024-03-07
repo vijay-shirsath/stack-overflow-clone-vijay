@@ -11,6 +11,8 @@ router.post("/login",login);
 
 
 router.get("/getAllUsers",getAllUsers)
-export default router;
+
 
 router.patch("/update/:id",updateProfile);
+
+export default router;
